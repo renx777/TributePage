@@ -1,0 +1,99 @@
+body{
+   background:#8e4343
+}
+#photo{
+
+    height:400px;
+    box-shadow: 0 0px 38px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
+
+}
+
+.carousel-inner>.item>img {
+    width: 640px;
+    height: 460px;
+}
+.carousel-inner{
+    background: #b32323;
+    box-shadow: inset 1px 0px 20px 8px #000000;  
+}
+
+#j2{
+    background: #b50c0ce8;
+    box-shadow: inset 1px 0px 20px 8px #000000;
+}
+
+a{
+    color:rgb(236, 223, 29);
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+#imagebox{
+    padding-top:15px;
+    padding-bottom: 15px;
+    width:600px;
+    margin: 0 auto;
+    box-shadow: inset 1px 0px 20px 8px #000000;
+}
+
+#name {
+    font-family: sacramento;
+    font-size: 80px;
+    color: rgb(255, 73, 73);
+    text-shadow: 0 0px 38px rgba(0, 0, 0, 0.918), 0 10px 12px rgb(0, 0, 0);
+}
+
+#title {
+    font-family: Julius Sans One;
+    
+    color: rgba(39, 253, 118, 0.932)
+}
+
+.life {
+    font-family: Syncopate;
+    margin-top:10px;
+    padding-top:5px;
+    color: #ffffffc2;
+    box-shadow: inset 1px 0px 20px 8px #000000;  
+}
+
+h3{
+    color:white;
+    text-shadow: 0 0px 38px rgba(0, 0, 0, 0.918), 0 10px 12px rgba(0, 0, 0, 0.26);
+}
+
+
+h4 {
+    text-decoration: underline;
+    
+}
+
+.jumbotron {
+    background: rgb(99, 3, 3);
+    margin-top: 20px;
+    border: 8px solid rgb(251, 14, 26);
+    border-radius: 5px;
+    box-shadow: 0 0px 38px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
+}
+
+.carousel {
+    background: #000000;
+    margin-top: 20px;
+    
+}
+
+.carousel .item {
+    min-height: 280px;
+    /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+.carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */
+}
+
+.bs-example {
+    margin: 20px;
+}
