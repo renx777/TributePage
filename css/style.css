@@ -1,39 +1,46 @@
-body{
-   background:#8e4343
+body {
+    background: #8e4343
 }
-#photo{
 
-    height:400px;
+
+
+#photo {
+   
+  
+    
     box-shadow: 0 0px 38px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
-
 }
+
 
 .carousel-inner>.item>img {
     width: 640px;
     height: 460px;
 }
-.carousel-inner{
+
+.carousel-inner {
     background: #b32323;
-    box-shadow: inset 1px 0px 20px 8px #000000;  
+    box-shadow: inset 1px 0px 20px 8px #000000;
 }
 
-#j2{
+#j2 {
     background: #b50c0ce8;
     box-shadow: inset 1px 0px 20px 8px #000000;
 }
 
-a{
-    color:rgb(236, 223, 29);
+a {
+    color: rgb(236, 223, 29);
+  cursor:arrow;
 }
-a:hover{
-    color:red;
+  
+a:hover {
+    color:rgb(236, 223, 29);
     text-decoration: none;
 }
 
-#imagebox{
-    padding-top:15px;
+#imagebox {
+    padding-top: 15px;
     padding-bottom: 15px;
-    width:600px;
+   width:600px;
     margin: 0 auto;
     box-shadow: inset 1px 0px 20px 8px #000000;
 }
@@ -47,27 +54,24 @@ a:hover{
 
 #title {
     font-family: Julius Sans One;
-    
     color: rgba(39, 253, 118, 0.932)
 }
 
 .life {
     font-family: Syncopate;
-    margin-top:10px;
-    padding-top:5px;
+    margin-top: 10px;
+    padding-top: 5px;
     color: #ffffffc2;
-    box-shadow: inset 1px 0px 20px 8px #000000;  
+    box-shadow: inset 1px 0px 20px 8px #000000;
 }
 
-h3{
-    color:white;
+h3 {
+    color: white;
     text-shadow: 0 0px 38px rgba(0, 0, 0, 0.918), 0 10px 12px rgba(0, 0, 0, 0.26);
 }
 
-
 h4 {
     text-decoration: underline;
-    
 }
 
 .jumbotron {
@@ -75,13 +79,12 @@ h4 {
     margin-top: 20px;
     border: 8px solid rgb(251, 14, 26);
     border-radius: 5px;
-    box-shadow: 0 0px 38px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 0px 38px rgba(0, 0, 0, 0.30), 0 10px 12px rgba(0, 0, 0, 0.22);
 }
 
 .carousel {
     background: #000000;
     margin-top: 20px;
-    
 }
 
 .carousel .item {
